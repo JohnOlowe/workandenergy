@@ -1,0 +1,54 @@
+  h1 {
+    text-align: center;
+    color: #ff1111;
+  }
+
+  code {
+    background-color: #FFFFcc;
+    display: flex;
+    justify-content: space-around;
+    font-size: inherit;
+  }
+
+  #diagram1,
+  #diagram-desc {
+    height: 50%;
+    width: 50%;
+  }
+
+  .image-cont1 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .examples {
+    background-color: #f0f0ff;
+  }
+  
+ .solution {
+    background-color: #fff1ff;
+  }
+  
+  .solution1b, .solution2b {
+    display: flex;
+    margin: auto;
+  }
+  
+  .examples .title {
+    background-color: #ffccff;
+  }
+  
+  .solution img {
+    width: 90%;
+  }
+
+  span {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .menu {
+    display: none;
+    background-color: #55ff55;
+  }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="energy.css">
+  <link rel="stylesheet" href="w3.css">
+  <title>Work and Energy</title>
+</head>
+
+<body>
+  <button id="show" onclick="showLinks()"><span>☰</span>
+  </button>
+  <h1> Work and Energy</h1>
+  <div id="menu" class="menu">
+    <a href="#examples">Examples</a>
+  </div>
+  <h3>Work</h3>
+  <p>
+    Work is a scalar quantity that has only magnitude but not direction. Work is said to be done when energy is expended.
+  </p>
+  <p>
+    Work is the product of the force and displacement. Work has unit Joule.
+  </p>
+
+  <h3>Energy</h3>
+  <p>
+    Energy is the capability of an object to do work. The types of Energy are:
+  <ul>
+    <li>Kinetic Energy</li>
+    <li>Potential Energy</li>
+    <li>Chemical Energy</li>
+    <li>Sound Energy</li>
+
+  </ul>
+  <br>
+  The unit of Energy is the Joule
+  </p>
+
+  <p>
+    The order of vectors is then given by:
+    O = Vector(A) &times; Vector(B) x cos(Angle between them)
+    <br>
+    <code id="center">
+      O = Vector(A) &times; Vector(B) &times; cos(&theta;)
+    </code>
+    <code>Work done = f &times; cos&theta;</code>
+  </p>
+
+  <p>
+    Work done by an external force on a body is the product of the force and the displacement x, provided that the force is in the direction of the displacement.
+    <br>
+    <code>w = f.s</code>
+  </p>
+
+  <p>
+    If the force acts at an angle &theta; to the displacement, the work done is the resolved component of the force along the direction of the displacement multiplied by the displacement.
+  </p>
+  <div class="image-cont1" , id="image-cont1">
+    <p id="diagram-desc">The graph of the force against the displacement</p>
+    <img id="diagram1" src="images/diagram1.jpg" alt="Fcos&theta;">
+  </div>
+  <p>
+    Hence, the workdone is defined as the scalar product of force F that moves its point of application through a displacement S.
+  </p>
+
+  <div id="examples" class="examples">
+    <p>Examples</p>
+    <ol>
+      <li>
+        <div class="ex1">
+          <p>A body moves through a distance S 5i + 2j - 3k from the origin (0,0,0) under the influence of a constraint force F = 4i + 3j - 2k. Determine
+          <p>(a) the work done
+            <br>(b) the angle between F and S
+          </p>
+          </p>
+          <div class="solution">
+            <p class="title">Solution</p>
+            <p>
+              (a) Workdone = FS
+              <br>Displacement = Final Reaction - Initial Position
+              <br>= 5i + 2j - 3k - [0,0,0]
+              <br>= 5i + 2j - 3k
+            </p>
+            <div class="solution1b">
+              <p>(b)</p>
+              <img src="images/solution1.jpg" alt="<the solution is not available>">
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="ex2">
+          <p>
+            A force F = (6i - 2j)N acts on a particle that undergoes a displacement &Delta;r = (3i + j)m. Find <br>
+            (a) the work done by the force on the particle <br>
+            (b) the &theta; between F and &Delta;r
+          </p>
+          <div class="solution">
+            <p class="title">Solution</p>
+            <p>
+              (a) W.D = FxX + FyY <br>
+              W.D = (6 &times; 3) + (-2 &times; 1) <br>
+              W.D = 18 + (-2) <br>
+              W.D = 18 - 2 <br>
+              W.D = 16J
+            </p>
+            <div class="solution2b">
+              <p>(b)</p>
+              <img src="images/solution2.jpg" alt="<the solution is not available>">
+            </div>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
