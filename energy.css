@@ -55,7 +55,15 @@
     font-weight: bold;
   }
 
+  .menu nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu nav button {
+    background-color: #ccccff;
+  }
+  
   .menu {
     display: none;
-    background-color: #55ff55;
   }
