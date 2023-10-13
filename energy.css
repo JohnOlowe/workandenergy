@@ -2,11 +2,21 @@
     text-align: center;
     color: #ff1111;
   }
+  
+  body {
+    background-color: #fff5f5;
+  }
 
   code {
     background-color: #FFFFcc;
     display: flex;
     justify-content: space-around;
+    font-size: inherit;
+    font-style: italic;
+  }
+  
+  .formulas {
+    font-style: italic;
     font-size: inherit;
   }
 

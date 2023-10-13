@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="energy.css">
+  <link rel="stylesheet" href="w3.css">
+  <title>Work and Energy</title>
+</head>
+
+<body>
+  <button id="show" onclick="showLinks()"><span>☰</span>
+  </button>
+  <h1> Work and Energy</h1>
+  <div class="page-content">
+    <div id="menu" class="menu">
+      <a href="#examples">Examples</a>
+    </div>
+    <h3>Work</h3>
+    <p>
+      Work is a scalar quantity that has only magnitude but not direction. Work is said to be done when energy is expended.
+    </p>
+    <p>
+      Work is the product of the force and displacement. Work has unit Joule.
+    </p>
+
+    <h3>Energy</h3>
+    <p>
+      Energy is the capability of an object to do work. The types of Energy are:
+    <ul>
+      <li>Kinetic Energy</li>
+      <li>Potential Energy</li>
+      <li>Chemical Energy</li>
+      <li>Sound Energy</li>
+
+    </ul>
+    <br>
+    The unit of Energy is the Joule
+    </p>
+
+    <p>
+      The order of vectors is then given by: <span class="formulas">O = Vector(A) &times; Vector(B) x cos(Angle between them)</span>
+      <br>
+      <code id="center">
+        O = Vector(A) &times; Vector(B) &times; cos(&theta;)
+      </code>
+      <code>Work done = f &times; cos&theta;</code>
+    </p>
+
+    <p>
+      Work done by an external force on a body is the product of the force and the displacement x, provided that the force is in the direction of the displacement.
+      <br>
+      <code>w = f.s</code>
+    </p>
+
+    <p>
+      If the force acts at an angle &theta; to the displacement, the work done is the resolved component of the force along the direction of the displacement multiplied by the displacement.
+    </p>
+    <div class="image-cont1" , id="image-cont1">
+      <p id="diagram-desc">The graph of the force against the displacement</p>
+      <img id="diagram1" src="images/diagram1.jpg" alt="Fcos&theta;">
+    </div>
+    <p>
+      Hence, the workdone is defined as the scalar product of force F that moves its point of application through a displacement S.
+    </p>
+  </div>
+
+  <div id="examples" class="examples">
+    <p>Examples</p>
+    <ol>
+      <li>
+        <div class="ex1">
+          <p>A body moves through a distance <span class="formulas">S = 5i + 2j - 3k</span> from the origin <span class="formulas">(0, 0, 0)</span> under the influence of a constant force <span class="formulas">F = 4i + 3j - 2k</span>. Determine
+          <p>(a) the work done
+            <br>(b) the angle between <span class="formulas">F</span> and <span class="formulas">S</span>
+          </p>
+          </p>
+          <div class="solution">
+            <p class="title">Solution</p>
+            <p>
+              (a) Workdone = FS
+              <br>Displacement = Final Reaction - Initial Position
+              <br>= 5i + 2j - 3k - [0,0,0]
+              <br>= 5i + 2j - 3k
+            </p>
+            <div class="solution1b">
+              <p>(b)</p>
+              <img src="images/solution1.jpg" alt="<the solution is not available>">
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="ex2">
+          <p>
+            A force <span class="formulas">F = (6i - 2j)N</span> acts on a particle that undergoes a displacement <span class="formulas">&Delta;r = (3i + j)m</span>. Find <br>
+            (a) the work done by the force on the particle <br>
+            (b) the angle between <span class="formulas">F</span> and <span class="formulas">&Delta;r</span>
+          </p>
+          <div class="solution">
+            <p class="title">Solution</p>
+            <p>
+              (a) W.D = FxX + FyY <br>
+              W.D = (6 &times; 3) + (-2 &times; 1) <br>
+              W.D = 18 + (-2) <br>
+              W.D = 18 - 2 <br>
+              W.D = 16J
+            </p>
+            <div class="solution2b">
+              <p>(b)</p>
+              <img src="images/solution2.jpg" alt="<the solution is not available>">
+            </div>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </div>
+
+  <div class="page-content">
+    <h2>Mechanical Energy</h2>
+    <p>
+      Mechanical Energy is the energy possessed by a body due to its virtue of position or its velocity.
+    </p>
+    <p>The types of Mechanical Energy are:</p>
+    <ol>
+      <li>
+        <div class="kinetic-container">
+          <h4>Potential Energy</h4>
+          <p>
+            This is the energy stored in a body by virtue of its position, its state of strain.
+            <br>
+            Examples of bodies possessing potential energy are
+          <ul>
+            <li>Water stored in a reservoir</li>
+            <li>A warmed spring</li>
+            <li>A stretched rubber cord</li>
+          </ul>
+          Potential energy is given by the amount of work done by the force acting on the body when the body moves from its given position to another position.
+          </p>
+          <h5>Expression of Potential Energy</h5>
+          <p>
+            Let us consider a body of mass <span class="formulas">m</span> which is at rest at a height <span class="formulas">H</span> above the ground. The work done in raising the body from the ground to height <span class="formulas">H</span> is stored in the body as its potential energy. When the body falls to the ground, the same amount of work can be got back from it. Therefore in order to lift the body vertically up, a force <span class="formulas">mg = W</span> equal to the weight of the body should be applied. When the body istaken vertically up through thr height <span class="formulas">H</span>, then work done <span class="formulas">W = Force &times; Displacement</span> <code>W = mg &times; h</code>
+            This work done is stored as the potential energy of the body i.e <code><span class="formulas">E<sub>p</sub> = mgh</span><span class="formulas">  eq 4</span>
+            </code>
+          </p>
+        </div </li>
+    </ol>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
