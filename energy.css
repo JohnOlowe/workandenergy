@@ -49,11 +49,15 @@
     background-color: #ffccff;
   }
   
-  .solution img {
+  .solution .img {
     width: 90%;
   }
+  
+  .solution img {
+    width: 100%;
+  }
 
-  span {
+ .navigation_links {
     font-size: 25px;
     font-weight: bold;
   }
@@ -61,4 +65,8 @@
   .menu {
     display: none;
     background-color: #55ff55;
+  }
+  
+  .math_render {
+    color: #000000;
   }

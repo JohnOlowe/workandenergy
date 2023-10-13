@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <button id="show" onclick="showLinks()"><span>☰</span>
+  <button id="show" onclick="showLinks()"><span class="navigation_links">☰</span>
   </button>
   <h1> Work and Energy</h1>
   <div class="page-content">
@@ -86,7 +86,7 @@
             </p>
             <div class="solution1b">
               <p>(b)</p>
-              <img src="images/solution1.jpg" alt="<the solution is not available>">
+              <img class="img" src="images/solution1.jpg" alt="<the solution is not available>">
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@
           <div class="solution">
             <p class="title">Solution</p>
             <p>
-              (a) W.D = FxX + FyY <br>
+              (a) W.D = F<sub>x</sub>x + F<sub>y</sub>y <br>
               W.D = (6 &times; 3) + (-2 &times; 1) <br>
               W.D = 18 + (-2) <br>
               W.D = 18 - 2 <br>
@@ -110,10 +110,25 @@
             </p>
             <div class="solution2b">
               <p>(b)</p>
-              <img src="images/solution2.jpg" alt="<the solution is not available>">
-              <p>
-                `cos^-1 (F Delta x)/(abs(F)abs(Delta y)`
-              </p>
+              <div class="img">
+                <p class="math_render">
+                  `&theta; = cos^-1 ((F Delta r)/(abs(F)abs(Delta r)))`</p>
+                <p class="math_render">`&theta; = cos^-1(16 / sqrt((6^2 + 2^2) + (3^2 + 1^2)))`
+                </p>
+                <p class="math_render">
+                  `&theta; = cos^-1 (16 / (40 &times; 10))`
+                </p>
+                <p class="math_render">
+                  `&theta; = cos^-1 (16 / 400)`
+                </p>
+                <p class="math_render">
+                  `&theta; = cos^-1 0.04`
+                </p>
+                <p class="math_render">
+                  `&theta; = 87.71^o`
+                </p>
+                <img src="images/solution2.jpg" alt="<the solution is not available>">
+              </div>
             </div>
           </div>
         </div>
@@ -145,14 +160,15 @@
           <h5>Expression of Potential Energy</h5>
           <p>
             Let us consider a body of mass <span class="formulas">m</span> which is at rest at a height <span class="formulas">H</span> above the ground. The work done in raising the body from the ground to height <span class="formulas">H</span> is stored in the body as its potential energy. When the body falls to the ground, the same amount of work can be got back from it. Therefore in order to lift the body vertically up, a force <span class="formulas">mg = W</span> equal to the weight of the body should be applied. When the body istaken vertically up through thr height <span class="formulas">H</span>, then work done <span class="formulas">W = Force &times; Displacement</span> <code>W = mg &times; h</code>
-            This work done is stored as the potential energy of the body i.e <code><span class="formulas">E<sub>p</sub> = mgh</span><span class="formulas">  eq 4</span>
+            This work done is stored as the potential energy of the body i.e <code><span class="formulas">E<sub>p</sub> = mgh</span><span class="formulas"> eq 4</span>
             </code>
           </p>
         </div </li>
     </ol>
   </div>
-  <script src="main.js"></script>
   <script src="ASCIIMathML.js"></script>
+  <script src="main.js"></script>
+
 </body>
 
 </html>
