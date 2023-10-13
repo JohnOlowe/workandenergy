@@ -8,7 +8,7 @@
   }
 
   code {
-    background-color: #FFFFcc;
+    background-color: #ffffcc;
     display: flex;
     justify-content: space-around;
     font-size: inherit;
@@ -20,16 +20,13 @@
     font-size: inherit;
   }
 
-  #diagram1,
-  #diagram-desc {
-    height: 50%;
-    width: 50%;
+  #diagram1 {
+    width: 100%;
   }
 
   .image-cont1 {
-    display: flex;
+    margin-left: 5%;
     width: 90%;
-    margin: auto;
   }
   
   .examples {
@@ -40,7 +37,7 @@
     background-color: #fff1ff;
   }
   
-  .solution1b, .solution2b {
+  .solution1b, .solution2b, .solution2a {
     display: flex;
     margin: auto;
   }
@@ -49,14 +46,10 @@
     background-color: #ffccff;
   }
   
-  .solution .img {
+  .answer {
     width: 90%;
   }
   
-  .solution img {
-    width: 100%;
-  }
-
  .navigation_links {
     font-size: 25px;
     font-weight: bold;
@@ -65,8 +58,4 @@
   .menu {
     display: none;
     background-color: #55ff55;
-  }
-  
-  .math_render {
-    color: #000000;
   }

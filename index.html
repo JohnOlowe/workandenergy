@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="energy.css">
   <link rel="stylesheet" href="w3.css">
+
   <title>Work and Energy (This is not a textbook)</title>
 </head>
 
@@ -58,8 +59,9 @@
       If the force acts at an angle &theta; to the displacement, the work done is the resolved component of the force along the direction of the displacement multiplied by the displacement.
     </p>
     <div class="image-cont1" , id="image-cont1">
-      <p id="diagram-desc">The graph of the force against the displacement</p>
       <img id="diagram1" src="images/diagram1.jpg" alt="Fcos&theta;">
+      <p id="diagram-desc"><em>The graph of the force against the displacement</em></p>
+
     </div>
     <p>
       Hence, the workdone is defined as the scalar product of force F that moves its point of application through a displacement S.
@@ -86,7 +88,26 @@
             </p>
             <div class="solution1b">
               <p>(b)</p>
-              <img class="img" src="images/solution1.jpg" alt="<the solution is not available>">
+              <div class="first_solution">
+                <p>
+                  `abs(F) = sqrt(4^2 + 3^2 + -2^2) = sqrt(29) = 5.4N`
+                </p>
+                <p>
+                  `abs(S) = sqrt(5^2 + 2^2 + -3^2) = sqrt(38) = 6.16m`
+                </p>
+                <p>
+                  `W = abs(F) abs(S) cos theta`
+                </p>
+                <p>
+                  `cos theta = W / (abs(F) abs(S))`
+                </p>
+                <p>
+                  `theta = cos^-1 (W /(abs(F) abs(S)))`
+                </p>
+                <p>
+                  `theta = cos^-1 (32 / (5.4 times 6.16)) = 15.8^O`
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -100,17 +121,20 @@
             (b) the angle between <span class="formulas">F</span> and <span class="formulas">&Delta;r</span>
           </p>
           <div class="solution">
-            <p class="title">Solution</p>
-            <p>
-              (a) W.D = F<sub>x</sub>x + F<sub>y</sub>y <br>
-              W.D = (6 &times; 3) + (-2 &times; 1) <br>
-              W.D = 18 + (-2) <br>
-              W.D = 18 - 2 <br>
-              W.D = 16J
-            </p>
+            <pre class="title">Solution</pre>
+            <div class="solution2a">
+              <p>(a)</p>
+              <div class="answer">
+                <p> `W.D = F<sub>x</sub>x + F<sub>y</sub>y`</p>
+                <p> `W.D = (6 &times; 3) + (-2 &times; 1)`</p>
+                <p> `W.D = 18 + (-2)`</p>
+                <p> `W.D = 18 - 2`</p>
+                <p> `W.D = 16J`</p>
+              </div>
+            </div>
             <div class="solution2b">
               <p>(b)</p>
-              <div class="img">
+              <div class="answer">
                 <p class="math_render">
                   `&theta; = cos^-1 ((F Delta r)/(abs(F)abs(Delta r)))`</p>
                 <p class="math_render">`&theta; = cos^-1(16 / sqrt((6^2 + 2^2) + (3^2 + 1^2)))`
@@ -127,7 +151,6 @@
                 <p class="math_render">
                   `&theta; = 71.34^o`
                 </p>
-                <img src="images/solution2.jpg" alt="<the solution is not available>">
               </div>
             </div>
           </div>
@@ -163,7 +186,6 @@
             This work done is stored as the potential energy of the body i.e <code><span class="formulas">E<sub>p</sub> = mgh</span><span class="formulas"> eq 4</span>
             </code>
           </p>
-        </div </li>
     </ol>
   </div>
   <script src="ASCIIMathML.js"></script>
